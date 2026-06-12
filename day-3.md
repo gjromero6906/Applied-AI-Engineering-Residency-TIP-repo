@@ -12,6 +12,8 @@ while left < right:
 return s
 ```
 
+This code snippet reverses a list or array `s` in place by swapping the elements at the `left` and `right` indices until the entire sequence is reversed.
+
 ```py
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
@@ -32,3 +34,5 @@ class Solution(object):
 
         return max_length
 ```
+
+The `lengthOfLongestSubstring` method finds the longest substring without repeating characters by sliding a window across the string and using a dictionary to remember the most recent index of each character. When a repeated character is found, it moves the start of the window forward to keep the substring unique.

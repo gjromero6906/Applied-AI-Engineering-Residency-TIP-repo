@@ -21,3 +21,5 @@ class Solution(object):
 
         return result
 ```
+
+This `fizzBuzz` method generates a list of strings for the numbers from 1 through `n`, replacing every multiple of 3 with "Fizz", every multiple of 5 with "Buzz", and every multiple of both with "FizzBuzz". It checks each number in turn, appends the correct string to `result`, and returns the completed list.
